@@ -19,3 +19,8 @@ If the VM has launched a jupyter server, it can be accessed on the local machine
 ```
 http://localhost:8888/tree
 ```
+
+Files can be uploaded to the VM using 'vagrant upload'. They will appear in the home dir of user 'vagrant'
+```
+vagrant upload a_file_on_host.txt
+```
